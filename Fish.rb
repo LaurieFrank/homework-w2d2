@@ -1,11 +1,9 @@
 class Fish
 
-attr_reader(:name)
+  attr_reader(:fish_name)
 
-  def initialize(fish_name)
-    @fish_name = fish_name
-
+  def initialize(input_fish_name)
+    @fish_name = input_fish_name
   end
-
 
 end
