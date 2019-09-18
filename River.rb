@@ -16,5 +16,5 @@ attr_reader(:river_name)
       for fish in fishes_to_add
         @fish_in_river.push(fish)
       end
-    end
+  end
 end
